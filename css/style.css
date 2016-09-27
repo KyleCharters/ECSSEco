@@ -1,0 +1,54 @@
+html {
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  
+  background-color: #F5F5F5
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-weight: 90;
+  margin: 0;
+}
+
+nav ul a,
+nav .brand-logo,
+nav .brand-logo img {
+  height: 100%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #a5d6a7;
+}
+
+.parallax-container {
+  height: 380px;
+  color: #F5F5F5;
+}
+
+.parallax-container .section {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    width: 100%;
+    top: 10%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
